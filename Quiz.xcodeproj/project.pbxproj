@@ -13,6 +13,14 @@
 		79A783A425D4BD7400CE392E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79A783A225D4BD7400CE392E /* Main.storyboard */; };
 		79A783A625D4BD7700CE392E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79A783A525D4BD7700CE392E /* Assets.xcassets */; };
 		79A783A925D4BD7700CE392E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79A783A725D4BD7700CE392E /* LaunchScreen.storyboard */; };
+		79A783B225D4BFD300CE392E /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A783B125D4BFD300CE392E /* QuizViewController.swift */; };
+		79A783B525D4BFF300CE392E /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A783B425D4BFF300CE392E /* ResultViewController.swift */; };
+		79A783BE25D5345A00CE392E /* awayuki.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79A783B825D5345A00CE392E /* awayuki.jpg */; };
+		79A783BF25D5345A00CE392E /* asukaruby.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79A783B925D5345A00CE392E /* asukaruby.jpg */; };
+		79A783C025D5345A00CE392E /* amaou.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79A783BA25D5345A00CE392E /* amaou.jpg */; };
+		79A783C125D5345A00CE392E /* yumenoka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79A783BB25D5345A00CE392E /* yumenoka.jpg */; };
+		79A783C225D5345A00CE392E /* shinkunomisuzu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79A783BC25D5345A00CE392E /* shinkunomisuzu.jpg */; };
+		79A783C325D5345A00CE392E /* kotoka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79A783BD25D5345A00CE392E /* kotoka.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		79A783A525D4BD7700CE392E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79A783A825D4BD7700CE392E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79A783AA25D4BD7700CE392E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79A783B125D4BFD300CE392E /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		79A783B425D4BFF300CE392E /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		79A783B825D5345A00CE392E /* awayuki.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = awayuki.jpg; sourceTree = "<group>"; };
+		79A783B925D5345A00CE392E /* asukaruby.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = asukaruby.jpg; sourceTree = "<group>"; };
+		79A783BA25D5345A00CE392E /* amaou.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = amaou.jpg; sourceTree = "<group>"; };
+		79A783BB25D5345A00CE392E /* yumenoka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yumenoka.jpg; sourceTree = "<group>"; };
+		79A783BC25D5345A00CE392E /* shinkunomisuzu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shinkunomisuzu.jpg; sourceTree = "<group>"; };
+		79A783BD25D5345A00CE392E /* kotoka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kotoka.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 		79A7839B25D4BD7400CE392E /* Quiz */ = {
 			isa = PBXGroup;
 			children = (
+				79A783B725D5345A00CE392E /* Quiz_Resources */,
 				79A7839C25D4BD7400CE392E /* AppDelegate.swift */,
 				79A7839E25D4BD7400CE392E /* SceneDelegate.swift */,
 				79A783A025D4BD7400CE392E /* ViewController.swift */,
@@ -63,8 +80,23 @@
 				79A783A525D4BD7700CE392E /* Assets.xcassets */,
 				79A783A725D4BD7700CE392E /* LaunchScreen.storyboard */,
 				79A783AA25D4BD7700CE392E /* Info.plist */,
+				79A783B125D4BFD300CE392E /* QuizViewController.swift */,
+				79A783B425D4BFF300CE392E /* ResultViewController.swift */,
 			);
 			path = Quiz;
+			sourceTree = "<group>";
+		};
+		79A783B725D5345A00CE392E /* Quiz_Resources */ = {
+			isa = PBXGroup;
+			children = (
+				79A783B825D5345A00CE392E /* awayuki.jpg */,
+				79A783B925D5345A00CE392E /* asukaruby.jpg */,
+				79A783BA25D5345A00CE392E /* amaou.jpg */,
+				79A783BB25D5345A00CE392E /* yumenoka.jpg */,
+				79A783BC25D5345A00CE392E /* shinkunomisuzu.jpg */,
+				79A783BD25D5345A00CE392E /* kotoka.jpg */,
+			);
+			path = Quiz_Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +156,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79A783C125D5345A00CE392E /* yumenoka.jpg in Resources */,
 				79A783A925D4BD7700CE392E /* LaunchScreen.storyboard in Resources */,
+				79A783BE25D5345A00CE392E /* awayuki.jpg in Resources */,
+				79A783BF25D5345A00CE392E /* asukaruby.jpg in Resources */,
 				79A783A625D4BD7700CE392E /* Assets.xcassets in Resources */,
+				79A783C225D5345A00CE392E /* shinkunomisuzu.jpg in Resources */,
+				79A783C325D5345A00CE392E /* kotoka.jpg in Resources */,
 				79A783A425D4BD7400CE392E /* Main.storyboard in Resources */,
+				79A783C025D5345A00CE392E /* amaou.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,9 +175,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79A783B525D4BFF300CE392E /* ResultViewController.swift in Sources */,
 				79A783A125D4BD7400CE392E /* ViewController.swift in Sources */,
 				79A7839D25D4BD7400CE392E /* AppDelegate.swift in Sources */,
 				79A7839F25D4BD7400CE392E /* SceneDelegate.swift in Sources */,
+				79A783B225D4BFD300CE392E /* QuizViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
